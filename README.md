@@ -348,7 +348,7 @@ flutter build linux --release
 
 ---
 
-## 🤖 AI/RAG Service (Python)
+##  AI/RAG Service (Python)
 
 ### Setup Python Environment
 
@@ -443,7 +443,7 @@ GET /health
 
 ---
 
-## 🔑 Konfigurasi Lingkungan
+##  Konfigurasi Lingkungan
 
 ### Setup .env File
 
@@ -867,27 +867,27 @@ docker-compose -f docker-compose.yml up -d
 ## Security Best Practices
 
 ### Environment Variables
-- ✅ Gunakan `.env.example` untuk template
-- ✅ JANGAN commit `.env` ke repository
-- ✅ Jaga JWT_SECRET tetap rahasia
-- ✅ Rotate API keys secara berkala
+-  Gunakan `.env.example` untuk template
+-  JANGAN commit `.env` ke repository
+-  Jaga JWT_SECRET tetap rahasia
+-  Rotate API keys secara berkala
 
 ### Database Security
-- ✅ Gunakan strong passwords
-- ✅ SSL/TLS untuk koneksi database
-- ✅ Limited user permissions
-- ✅ Regular backups
+-  Gunakan strong passwords
+-  SSL/TLS untuk koneksi database
+-  Limited user permissions
+-  Regular backups
 
 ### API Security
-- ✅ CORS properly configured
-- ✅ Input validation
-- ✅ SQL injection prevention
-- ✅ Rate limiting
+-  CORS properly configured
+-  Input validation
+-  SQL injection prevention
+-  Rate limiting
 
 ### Flutter Security
-- ✅ Store sensitive data in secure storage
-- ✅ Certificate pinning for HTTPS
-- ✅ Obfuscate code untuk release build
+-  Store sensitive data in secure storage
+-  Certificate pinning for HTTPS
+-  Obfuscate code untuk release build
 
 ---
 
