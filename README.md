@@ -38,22 +38,9 @@ Platform pembelajaran Islam yang dirancang khusus sebagai penguat karakter remaj
 
 ---
 
-## Tim Pengembang
-
-| Nama | Role | Kontribusi |
-|------|------|-----------|
-| **Aaliyah Shirein** | Product Manager & UX Research | Strategi produk & riset pengguna |
-| **Rifa Qonitah** | UX Designer & App Developer | Desain UX & development aplikasi |
-| **Chesya Annisa** | UI Designer | Desain interface & visual design |
-| **Rafi Ananta Nugraha** | Frontend Developer | Development Flutter frontend |
-| **Gilang Fachrul Huda** | Backend Developer | Development Go backend & RAG service |
-
----
-
 ## Daftar Isi
 
 - [Tentang SoBi](#tentang-sobi)
-- [Tim Pengembang](#tim-pengembang)
 - [Ringkasan Teknis](#ringkasan-teknis)
 - [Arsitektur Sistem](#arsitektur-sistem)
 - [Struktur Proyek](#struktur-proyek)
