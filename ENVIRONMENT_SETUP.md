@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Daftar Isi
+##  Daftar Isi
 
 - [Development Setup](#development-setup)
 - [Staging Setup](#staging-setup)
@@ -19,7 +19,7 @@
 
 ---
 
-## 💻 Development Setup
+##  Development Setup
 
 ### Local Machine Configuration
 
@@ -104,7 +104,7 @@ dart devtools
 
 ---
 
-## 🌐 Staging Setup
+##  Staging Setup
 
 ### Remote Server Configuration
 
@@ -185,9 +185,9 @@ curl https://staging-api.sobi.company.com/health
 
 ---
 
-## 🚀 Production Setup
+##  Production Setup
 
-### ⚠️ CRITICAL: Production Security Requirements
+###  CRITICAL: Production Security Requirements
 
 ```env
 # Database (Production - RDS/Managed Service)
@@ -278,7 +278,7 @@ DATADOG_API_KEY=production-datadog-key
 ### Production Deployment Checklist
 
 ```bash
-# ✅ Pre-Deployment Checklist
+#  Pre-Deployment Checklist
 
 # 1. Database
 - [ ] PostgreSQL 14+ installed
@@ -406,7 +406,7 @@ pg_dump -h prod-db.xxxxx.rds.amazonaws.com -U prod_user \
 
 ---
 
-## 🔐 API Keys & Credentials Management
+##  API Keys & Credentials Management
 
 ### Generate Secure Keys
 
@@ -469,7 +469,7 @@ stringData:
 
 ---
 
-## ✅ Security Checklist
+##  Security Checklist
 
 ### Environment Variables Security
 
@@ -547,7 +547,7 @@ stringData:
 
 ---
 
-## 🔄 Environment Variables Priority
+##  Environment Variables Priority
 
 When variables are defined in multiple places, the priority is:
 
@@ -558,7 +558,7 @@ When variables are defined in multiple places, the priority is:
 
 ---
 
-## 📖 Related Documentation
+##  Related Documentation
 
 - [README.md](./README.md) - Complete project documentation
 - [QUICK_START.md](./QUICK_START.md) - Quick setup guide

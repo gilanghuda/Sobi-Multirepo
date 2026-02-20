@@ -806,7 +806,7 @@ docker run -p 5050:80 \
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Build Docker Images
 
@@ -938,7 +938,7 @@ DROP DATABASE sobi-db;
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend Issues
 

@@ -1,10 +1,10 @@
-# 🛠️ Development Setup Guide - SoBi
+#  Development Setup Guide - SoBi
 
 **Panduan lengkap setup development environment untuk SoBi multi-platform**
 
 ---
 
-## 📋 Daftar Isi
+##  Daftar Isi
 
 - [Prerequisites](#prerequisites)
 - [Backend Setup](#backend-setup-go--fiber)
@@ -18,7 +18,7 @@
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 ### System Requirements
 
@@ -71,7 +71,7 @@ git --version
 
 ---
 
-## 🔧 Backend Setup (Go + Fiber)
+##  Backend Setup (Go + Fiber)
 
 ### 1. Navigate to Backend Directory
 
@@ -341,7 +341,7 @@ flutter build linux --release
 
 ---
 
-## 🤖 RAG Service Setup (Python)
+##  RAG Service Setup (Python)
 
 ### 1. Navigate to RAG Service Directory
 
@@ -472,7 +472,7 @@ curl -X POST http://localhost:8001/search \
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 ### 1. Install PostgreSQL
 
@@ -564,7 +564,7 @@ SELECT * FROM schema_migrations;
 
 ---
 
-## 🚀 Running All Services
+## Running All Services
 
 ### Terminal Setup (3 terminals needed)
 
@@ -627,7 +627,7 @@ psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"
 
 ---
 
-## 💻 IDE Configuration
+##  IDE Configuration
 
 ### VS Code Setup
 
@@ -687,7 +687,7 @@ flutter test
 
 ---
 
-## 🐛 Common Issues
+##  Common Issues
 
 ### Issue: Port Already in Use
 
@@ -754,7 +754,7 @@ go mod download
 
 ---
 
-## 📝 Development Workflow
+##  Development Workflow
 
 ### Git Workflow
 
@@ -809,7 +809,7 @@ python -m pytest tests/
 
 ---
 
-## 📚 Next Steps
+##  Next Steps
 
 1. **Read Full Documentation** → See [README.md](./README.md)
 2. **Explore API** → Visit http://localhost:8000/swagger
@@ -819,16 +819,14 @@ python -m pytest tests/
 
 ---
 
-## 🆘 Need Help?
+## Need Help?
 
 - **Issues?** → Check [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md)
 - **Quick answers?** → See [QUICK_START.md](./QUICK_START.md)
-- **Configuration?** → Check [.env.example](./.env.example)
-- **Email** → gilanghuda99@gmail.com
+
 
 ---
 
-**Happy Development! 🚀**
 
 #### Installation
 
@@ -927,7 +925,7 @@ brew install --cask pycharm-community
 
 ---
 
-## 🐹 Go Development Setup
+##  Go Development Setup
 
 ### Installation
 
@@ -1039,7 +1037,7 @@ air
 
 ---
 
-## 📱 Flutter Development Setup
+##  Flutter Development Setup
 
 ### Installation
 
@@ -1150,7 +1148,7 @@ flutter build web
 
 ---
 
-## 🐍 Python Development Setup
+##  Python Development Setup
 
 ### Python Installation
 
@@ -1248,7 +1246,7 @@ python_files = "test_*.py"
 
 ---
 
-## 🗄️ Database Tools
+##  Database Tools
 
 ### PostgreSQL Client Tools
 
@@ -1314,7 +1312,7 @@ psql -U etmin sobi-db < backup.sql
 
 ---
 
-## 🔄 Version Control & Git
+##  Version Control & Git
 
 ### Git Installation
 
@@ -1416,7 +1414,7 @@ pre-commit run --all-files
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Docker Installation
 
@@ -1473,7 +1471,7 @@ docker-compose down -v  # Remove volumes too
 
 ---
 
-## 🧪 API Testing Tools
+## API Testing Tools
 
 ### Postman
 
@@ -1533,7 +1531,7 @@ open http://localhost:8000/docs
 
 ---
 
-## 📦 Useful Extensions
+##  Useful Extensions
 
 ### Browser Extensions
 
@@ -1557,7 +1555,7 @@ code --install-extension golang.go \
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Go Issues
 
@@ -1619,7 +1617,7 @@ psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"
 
 ---
 
-## 📖 Related Documentation
+##  Related Documentation
 
 - [README.md](./README.md) - Main documentation
 - [QUICK_START.md](./QUICK_START.md) - Quick setup

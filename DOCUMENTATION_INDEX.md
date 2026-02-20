@@ -1,4 +1,4 @@
-# 📚 SoBi Documentation Index
+#  SoBi Documentation Index
 
 <div align="center">
 
@@ -10,7 +10,7 @@ Panduan komprehensif untuk setup integrated development environment pada proyek 
 
 ---
 
-## 🎯 Quick Navigation
+##  Quick Navigation
 
 Pilih dokumen sesuai kebutuhan Anda:
 
@@ -20,7 +20,7 @@ Pilih dokumen sesuai kebutuhan Anda:
    - Verifikasi checklist
    - Common issues solutions
 
-### 📖 Dokumentasi Lengkap
+###  Dokumentasi Lengkap
 2. **[README.md](./README.md)** - Main Documentation
    - Project overview & architecture
    - Complete installation guide
@@ -28,7 +28,7 @@ Pilih dokumen sesuai kebutuhan Anda:
    - Docker deployment
    - Troubleshooting guide
 
-### 🔧 Setup Tools & IDE
+###  Setup Tools & IDE
 3. **[DEVELOPMENT_SETUP.md](./DEVELOPMENT_SETUP.md)** - IDE & Tools
    - VS Code configuration
    - Go setup & tools
@@ -38,7 +38,7 @@ Pilih dokumen sesuai kebutuhan Anda:
    - Git workflow
    - Docker setup
 
-### ⚙️ Environment Configuration
+###  Environment Configuration
 4. **[ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md)** - Configurations
    - Development setup
    - Staging setup
@@ -46,7 +46,7 @@ Pilih dokumen sesuai kebutuhan Anda:
    - API keys management
    - Security checklist
 
-### 🔑 Environment Variables
+###  Environment Variables
 5. **[.env.example](./.env.example)** - Configuration Template
    - All available variables
    - Descriptions & defaults
@@ -54,7 +54,7 @@ Pilih dokumen sesuai kebutuhan Anda:
 
 ---
 
-## 📋 Documentation Structure
+##  Documentation Structure
 
 ```
 sobi-app/
@@ -71,9 +71,9 @@ sobi-app/
 
 ---
 
-## 🎓 Learning Path
+##  Learning Path
 
-### Beginner Setup (0-30 minutes)
+### Beginner Setup (
 ```
 1. Read: QUICK_START.md (5 min)
    ↓
@@ -81,7 +81,7 @@ sobi-app/
    ↓
 3. Verify: Run checklist items (10 min)
    ↓
-✅ Development environment ready!
+ Development environment ready!
 ```
 
 ### Intermediate Setup (1-2 hours)
@@ -96,7 +96,7 @@ sobi-app/
    ↓
 5. Setup: Copy & configure .env.example (10 min)
    ↓
-✅ Complete development environment!
+ Complete development environment!
 ```
 
 ### Advanced Setup (2-4 hours)
@@ -111,12 +111,12 @@ sobi-app/
    ↓
 5. Security: Implement security measures (1 hour)
    ↓
-✅ Production-ready development environment!
+ Production-ready development environment!
 ```
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 ### SoBi Application Stack
 
@@ -158,7 +158,7 @@ sobi-app/
 
 ---
 
-## 🎯 Use Case Documentation
+##  Use Case Documentation
 
 ### "I just cloned the repo, what do I do?" 
 → **[QUICK_START.md](./QUICK_START.md)** (5 minutes)
@@ -186,7 +186,7 @@ sobi-app/
 
 ---
 
-## 🔑 Key Configuration Files
+##  Key Configuration Files
 
 ### Essential Files to Understand
 
@@ -222,7 +222,7 @@ AI Service (Python):
 
 ---
 
-## 🛠️ Command Cheat Sheet
+##  Command Cheat Sheet
 
 ### Quick Commands
 
@@ -274,7 +274,7 @@ docker-compose down
 
 ---
 
-## 📦 Environment Variables Summary
+##  Environment Variables Summary
 
 ### Backend (.env at root)
 ```env
@@ -304,7 +304,7 @@ GEMINI_API_KEY
 
 ---
 
-## ✅ Pre-Development Checklist
+##  Pre-Development Checklist
 
 Before starting development, ensure:
 
@@ -321,7 +321,7 @@ Before starting development, ensure:
 
 ---
 
-## 🔄 Development Workflow
+##  Development Workflow
 
 ### Daily Development Routine
 
@@ -354,13 +354,13 @@ git push origin branch-name
 
 ---
 
-## 📞 Support & Resources
+##  Support & Resources
 
 ### Documentation
-- 📘 [README.md](./README.md) - Complete guide
-- ⚡ [QUICK_START.md](./QUICK_START.md) - 5-minute setup
-- 🛠️ [DEVELOPMENT_SETUP.md](./DEVELOPMENT_SETUP.md) - Tools & IDE
-- ⚙️ [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) - Configuration
+-  [README.md](./README.md) - Complete guide
+-  [QUICK_START.md](./QUICK_START.md) - 5-minute setup
+-  [DEVELOPMENT_SETUP.md](./DEVELOPMENT_SETUP.md) - Tools & IDE
+-  [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) - Configuration
 
 ### External Resources
 - [Go Documentation](https://golang.org/doc)
@@ -369,14 +369,10 @@ git push origin branch-name
 - [PostgreSQL Documentation](https://www.postgresql.org/docs)
 - [Docker Documentation](https://docs.docker.com)
 
-### Contact
-- 📧 Email: gilanghuda99@gmail.com
-- 🌐 Website: sobi.gilanghuda.my.id
-- 💻 GitHub: github.com/gilanghuda
 
 ---
 
-## 📈 Documentation Maintenance
+##  Documentation Maintenance
 
 Last Updated: **February 2026**
 
@@ -401,7 +397,7 @@ git push origin main
 
 ---
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 ### Getting Started Series
 1. **5-Minute Quick Start** → [QUICK_START.md](./QUICK_START.md)
@@ -436,12 +432,12 @@ git push origin main
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 1. **Read QUICK_START.md** (5 minutes)
 2. **Follow setup instructions** (15-30 minutes)
 3. **Verify everything runs** (5 minutes)
-4. **Start development** (Happy coding! 🎉)
+4. **Start development** (Happy coding! )
 
 ---
 
@@ -456,6 +452,6 @@ Jika ada pertanyaan, baca dokumentasi yang relevan atau hubungi tim development.
 **Last Updated**: February 20, 2026  
 **Documentation Version**: 1.0.0  
 **Project**: SoBi - Islamic Learning Platform  
-**Status**: ✅ Complete & Ready for Use
+**Status**:  Complete & Ready for Use
 
 </div>

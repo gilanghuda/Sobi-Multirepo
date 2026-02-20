@@ -1,4 +1,4 @@
-# 🚀 SQuick Start 
+# Quick Start 
 
 > setup cepat 
 
@@ -12,7 +12,7 @@ python --version    # Python 3.8+
 psql --version      # PostgreSQL 14+
 ```
 
-## 📁 Setup Repository
+## Setup Repository
 
 ```bash
 # Clone repository
@@ -27,7 +27,7 @@ cp .env.example .env
 nano .env  # atau vim/code .env
 ```
 
-## 🗄️ Database Setup (1 Menit)
+## Database Setup 
 
 ```bash
 # Start PostgreSQL dengan Docker (jika belum)
@@ -42,7 +42,7 @@ docker run --name sobi-postgres \
 psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"
 ```
 
-## 🎯 Run Backend (Terminal 1)
+##  Run Backend 
 
 ```bash
 cd Sobi-MainBackend
@@ -61,7 +61,7 @@ go run main.go
 # ✓ API Docs at http://localhost:8000/swagger
 ```
 
-## 🤖 Run RAG Service (Terminal 2)
+##  Run RAG Service 
 
 ```bash
 cd sobi-AiQuran
@@ -81,7 +81,7 @@ python main.py
 # ✓ API Docs at http://localhost:8001/docs
 ```
 
-## 📱 Run Frontend (Terminal 3)
+## Run Frontend 
 
 ```bash
 cd Sobi-Frontend
@@ -98,7 +98,7 @@ flutter run
 # - Tekan 'w' untuk Windows desktop
 ```
 
-## ✅ Verification
+## Verification
 
 Semua services sudah berjalan? Check ini:
 
@@ -113,7 +113,7 @@ curl http://localhost:8001/docs
 # Open your browser & navigate ke http://localhost:8081
 ```
 
-## 🎉 Done!
+## Done!
 
 ### Backend Setup
 
@@ -183,27 +183,27 @@ psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"
 
 ---
 
-## ✅ Verification Checklist
+##  Verification Checklist
 
 Pastikan semua services berjalan:
 
 ```bash
 # Backend
-curl http://localhost:8000/          ✅ Should return "Hello, World!"
+curl http://localhost:8000/           Should return "Hello, World!"
 
 # RAG Service
-curl http://localhost:8001/docs      ✅ Should show Swagger UI
+curl http://localhost:8001/docs       Should show Swagger UI
 
 # Database
-psql -h localhost -U etmin -d sobi-db -c "SELECT 1;" ✅ Should return 1
+psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"  Should return 1
 
 # Flutter
-flutter devices                      ✅ Should show available devices
+flutter devices                       Should show available devices
 ```
 
 ---
 
-## 📁 Environment Variables Essentials
+##  Environment Variables Essentials
 
 Nilai minimal yang HARUS diubah di `.env`:
 
@@ -231,7 +231,7 @@ OAUTH_CLIENT_SECRET=your_google_secret
 
 ---
 
-## 🐛 Common Issues & Solutions
+##  Common Issues & Solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -243,16 +243,16 @@ OAUTH_CLIENT_SECRET=your_google_secret
 
 ---
 
-## 📚 Next Steps
+##  Next Steps
 
-1. ✅ Baca [README.md](./README.md) untuk dokumentasi lengkap
-2. ✅ Explore `docker-compose.yml` untuk automated setup
-3. ✅ Setup IDE dan extensions (VS Code, Android Studio, Xcode)
-4. ✅ Configure Git hooks untuk code quality
+1.  Baca [README.md](./README.md) untuk dokumentasi lengkap
+2.  Explore `docker-compose.yml` untuk automated setup
+3.  Setup IDE dan extensions (VS Code, Android Studio, Xcode)
+4.  Configure Git hooks untuk code quality
 
 ---
 
-## 🎯 Development Commands Cheat Sheet
+##  Development Commands Cheat Sheet
 
 ```bash
 # Format code
@@ -273,10 +273,3 @@ docker-compose logs -f backend
 docker-compose logs -f rag_service
 ```
 
----
-
-## 🆘 Need Help?
-
-- 📧 Email: gilanghuda99@gmail.com
-- 📖 Docs: Check full README.md
-- 🐛 Issues: GitHub Issues section
