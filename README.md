@@ -1065,7 +1065,7 @@ This project is proprietary and confidential.
 
 Untuk pertanyaan atau support:
 - 📧 Email: gilanghuda99@gmail.com
-- 🌐 Website: sobi.gilanghuda.my.id
+- 🌐 Website: sobatbimbing.com
 
 ---
 
