@@ -1,6 +1,6 @@
-# 🚀 SoBi Quick Start Guide (5 Menit)
+# 🚀 SQuick Start 
 
-> Panduan setup cepat untuk memulai development SoBi dalam 5 menit
+> setup cepat 
 
 ## ⚡ Prerequisites
 

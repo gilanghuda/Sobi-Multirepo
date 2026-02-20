@@ -1,12 +1,12 @@
-# 📱 **SoBi** - Sobat Bimbing: Platform Pembelajaran Islam Terpadu untuk Generasi Muda
+# SoBi - Teman Hijrah untuk Remaja
 
 <div align="center">
 
 ![SoBi App](./architecture.jpeg)
 
-**Solusi Inovatif Pembimbing Karakter Remaja Qurani Menuju Indonesia Emas 2045**
+Teman hijrah yang mendampingi remaja kembali kepada nilai-nilai Al-Qur'an dan Hadits.
 
-> **SoBi** (صبي) berarti "anak muda" dalam bahasa Arab. Aplikasi ini adalah teman hijrah yang mendampingi remaja kembali kepada nilai-nilai Al-Qur'an dan Hadits di tengah tantangan globalisasi dan modernisasi.
+Platform pembelajaran Islam yang dirancang khusus sebagai penguat karakter remaja Qurani.
 
 [![Go](https://img.shields.io/badge/Go-1.24.0-00ADD8?style=flat&logo=go)](https://golang.org)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7.0-02569B?style=flat&logo=flutter)](https://flutter.dev)
@@ -14,32 +14,31 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791?style=flat&logo=postgresql)](https://www.postgresql.org)
 [![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?style=flat&logo=docker)](https://www.docker.com)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=flat)](LICENSE)
 
 </div>
 
 ---
 
-## 🎯 Tentang SoBi
+## Tentang SoBi
 
-**SoBi** (Sobat Bimbing) hadir sebagai **inovasi atas isu pergaulan bebas** dengan pendekatan Islami berlandaskan Al-Qur'an dan Hadits. Platform ini dirancang khusus sebagai **penguat karakter remaja Qurani** yang membimbing generasi muda menuju Indonesia Emas 2045.
+**SoBi** (Sobat Bimbing) hadir sebagai **inovasi atas isu pergaulan bebas** dengan pendekatan Islami berlandaskan Al-Qur'an dan Hadits. Platform ini dirancang khusus sebagai **penguat karakter remaja Qurani**.
 
-### 🌟 Fitur Unggulan
+### Fitur Unggulan
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 📊 **Tracker Ibadah** | Visualisasi tracking ibadah harian dengan analitik mendalam |
-| 📔 **Jurnal Refleksi** | Dokumentasi perjalanan spiritual dan personal growth |
-| 🤖 **AI Counselor** | Teman yang peduli, aktif mengajukan pertanyaan untuk menggali perasaan |
-| 💚 **Analisis Emosi** | Pengenalan emosi dan hubungan tidak sehat dengan perspektif syariat |
-| 📚 **Konten Islami** | Podcast, artikel, kisah hijrah, dan ayat Al-Qur'an |
-| 📱 **Multi-Platform** | iOS, Android, Web, Desktop (Windows/macOS/Linux) |
-| 🔐 **Aman & Terpercaya** | End-to-end encryption, data privacy compliant |
-| 🌙 **Fitur Offline** | Akses konten tanpa koneksi internet |
+| **Tracker Ibadah** | Visualisasi tracking ibadah harian dengan analitik mendalam |
+| **Jurnal Refleksi** | Dokumentasi perjalanan spiritual dan personal growth |
+| **AI Counselor** | Teman yang peduli, aktif mengajukan pertanyaan untuk menggali perasaan |
+| **Analisis Emosi** | Pengenalan emosi dan hubungan tidak sehat dengan perspektif syariat |
+| **Konten Islami** | Podcast, artikel, kisah hijrah, dan ayat Al-Qur'an |
+| **Multi-Platform** | iOS, Android, Web, Desktop (Windows/macOS/Linux) |
+| **Aman & Terpercaya** | End-to-end encryption, data privacy compliant |
+
 
 ---
 
-## 👥 Tim Pengembang
+## Tim Pengembang
 
 | Nama | Role | Kontribusi |
 |------|------|-----------|
@@ -51,7 +50,7 @@
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 
 - [Tentang SoBi](#tentang-sobi)
 - [Tim Pengembang](#tim-pengembang)
@@ -72,7 +71,7 @@
 
 ---
 
-## 🎯 Ringkasan Teknis
+## Ringkasan Teknis
 
 **SoBi** adalah aplikasi pembelajaran Islam multi-platform yang mengintegrasikan teknologi terkini:
 
@@ -91,11 +90,11 @@
 
 ---
 
-## 🏗️ Arsitektur Sistem
+## Arsitektur Sistem
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                       📱 Multi-Platform Client                  │
+│                       Multi-Platform Client                    │
 ├────────────────┬─────────────────────┬──────────────────────────┤
 │  Flutter iOS   │   Flutter Android   │  Flutter Web/Desktop     │
 └────────┬───────┴───────────┬─────────┴──────────┬───────────────┘
@@ -103,89 +102,27 @@
          └───────────────────┼────────────────────┘
                              │ HTTPS/WebSocket
                     ┌────────▼──────────┐
-                    │  🖥️  Backend API  │
+                    │   Backend API     │
                     │   (Go + Fiber)    │
-                    │  Port 8000        │
+                    │   Port 8000       │
                     └────────┬──────────┘
                              │
          ┌───────────────────┼───────────────────┐
          │                   │                   │
     ┌────▼────────┐  ┌──────▼──────┐  ┌────────▼────────┐
-    │ 🗄️ PostgreSQL  │  │ 🤖 AI/RAG   │  │ 🎯 External APIs│
-    │   Database     │  │  (Python)   │  │ (Gemini, OAuth) │
-    │   Port 5432    │  │ Port 8001   │  │                │
+    │ PostgreSQL  │  │   AI/RAG    │  │ External APIs   │
+    │   Database  │  │   (Python)  │  │ (Gemini, OAuth) │
+    │  Port 5432  │  │  Port 8001  │  │                 │
     └────┬─────────┘  └──────┬──────┘  └────────┬────────┘
          │                   │                   │
     ┌────▼──────────────────┴───────────────────▼──────┐
-    │  📧 SMTP  │ 💳 Midtrans  │ 🔐 JWT Auth  │ 📚 Cache │
+    │  SMTP  │  Midtrans  │  JWT Auth  │  Cache       │
     └───────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📁 Struktur Proyek
-
-**SoBi** adalah aplikasi pembelajaran Islam multi-platform yang mengintegrasikan:
-
-| Komponen | Teknologi | Deskripsi |
-|----------|-----------|----------|
-| **Backend** | Go + Fiber | REST API dengan WebSocket support |
-| **Frontend** | Flutter | iOS, Android, Web, Windows, macOS, Linux |
-| **AI/RAG** | Python + FastAPI | Retrieval Augmented Generation untuk Q&A Al-Qur'an |
-| **Database** | PostgreSQL | Data persistence dan management |
-| **Payment** | Midtrans | Gateway pembayaran terintegrasi |
-| **Email** | SMTP Gmail | Notifikasi dan verifikasi email |
-| **Authentication** | OAuth 2.0 | Google Sign-In & JWT tokens |
-
-**SoBi** adalah aplikasi pembelajaran Islam multi-platform yang mengintegrasikan:
-
-| Komponen | Teknologi | Deskripsi |
-|----------|-----------|----------|
-| **Backend** | Go + Fiber | REST API dengan WebSocket support |
-| **Frontend** | Flutter | iOS, Android, Web, Windows, macOS, Linux |
-| **AI/RAG** | Python + FastAPI | Retrieval Augmented Generation untuk Q&A Al-Qur'an |
-| **Database** | PostgreSQL | Data persistence dan management |
-| **Payment** | Midtrans | Gateway pembayaran terintegrasi |
-| **Email** | SMTP Gmail | Notifikasi dan verifikasi email |
-| **Authentication** | OAuth 2.0 | Google Sign-In & JWT tokens |
-
----
-
-## 🏗️ Arsitektur Sistem
-
-```
-┌─────────────┐
-│    User     │
-│ (Aplikasi)  │
-└──────┬──────┘
-       │
-       ├─── REST API ────┐
-       └─── WebSocket ───┤
-                         │
-                    ┌────▼─────┐
-                    │  Backend  │
-                    │ (Go Fiber)│
-                    └────┬──────┘
-                         │
-         ┌───────────────┼───────────────┐
-         │               │               │
-    ┌────▼────┐    ┌────▼────┐    ┌────▼────────┐
-    │ Database │    │  Cache  │    │ AI/RAG API  │
-    │(PostgreSQL)   │ (Redis) │    │(Python FAst)
-    └──────────┘    └─────────┘    └─────────────┘
-                         │
-         ┌───────────────┴───────────────┐
-         │                               │
-    ┌────▼────────┐          ┌──────────▼──┐
-    │ Midtrans    │          │  Google     │
-    │ Payment     │          │  OAuth2     │
-    └─────────────┘          │  Gemini API │
-                             └─────────────┘
-```
-
----
-
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 sobi-app/
@@ -231,7 +168,7 @@ sobi-app/
 
 ---
 
-## 💻 Persyaratan Sistem
+## Persyaratan Sistem
 
 ### Minimal Requirements
 
@@ -272,7 +209,7 @@ CLI Tools:
 
 ---
 
-## 🚀 Panduan Setup Cepat (5 Menit)
+## Setup Sobi-App
 
 ### Instalasi Go & Dependencies
 
@@ -329,7 +266,7 @@ Migrations otomatis akan membuat:
 
 ---
 
-## 📱 Frontend (Flutter)
+## Frontend (Flutter)
 
 ### Instalasi Flutter SDK
 
@@ -708,7 +645,7 @@ LOG_FILE=./logs/rag_service.log
 
 ---
 
-## ▶️ Menjalankan Proyek
+## Menjalankan Proyek
 
 ### Setup All Services (Development Mode)
 
@@ -782,7 +719,7 @@ psql -h localhost -U etmin -d sobi-db -c "SELECT 1;"
 
 ---
 
-## 🗄️ Database Migration
+## Database Migration
 
 ### Using Go Migrate CLI
 
@@ -817,7 +754,7 @@ SELECT version();          # Check PostgreSQL version
 
 ---
 
-## 🛠️ Development Tools
+## Development Tools
 
 ### API Testing
 
@@ -940,7 +877,7 @@ docker-compose -f docker-compose.yml up -d
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 ### Environment Variables
 - ✅ Gunakan `.env.example` untuk template
@@ -967,7 +904,7 @@ docker-compose -f docker-compose.yml up -d
 
 ---
 
-## 📚 Useful Commands Reference
+## Useful Commands Reference
 
 ### Go Commands
 ```bash
@@ -1045,7 +982,7 @@ flutter devices
 
 ---
 
-## 📖 Additional Resources
+## Additional Resources
 
 - [Go Documentation](https://golang.org/doc)
 - [Flutter Documentation](https://flutter.dev/docs)
@@ -1055,23 +992,9 @@ flutter devices
 
 ---
 
-## 📄 License
-
-This project is proprietary and confidential.
-
----
-
-## 📞 Support & Contact
-
-Untuk pertanyaan atau support:
-- 📧 Email: gilanghuda99@gmail.com
-- 🌐 Website: sobatbimbing.com
-
----
-
 <div align="center">
 
-**Dibuat dengan ❤️ untuk pembelajaran Islam yang lebih baik**
+**Dibuat untuk pembelajaran Islam yang lebih baik**
 
 Last Updated: February 2026
 
