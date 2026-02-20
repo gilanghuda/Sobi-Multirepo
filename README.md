@@ -1055,13 +1055,6 @@ flutter devices
 
 ---
 
-## 👥 Team & Contribution
-
-- **Developer**: Gilang Huda
-- **Project**: SoBi - Islamic Learning Platform
-
----
-
 ## 📄 License
 
 This project is proprietary and confidential.
